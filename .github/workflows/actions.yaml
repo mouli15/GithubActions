@@ -6,3 +6,4 @@ jobs:
     steps:
       - run: echo "First github action"
       - run: echo "$HOSTNAME"
+      - run: echo "test"
