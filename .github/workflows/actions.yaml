@@ -1,0 +1,8 @@
+name: executing actions
+on: push
+jobs:
+  init:
+    runs-on: self-hosted
+    steps:
+      - run: echo "First github action"
+      - run: echo "$HOSTNAME"
